@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>test purpose</title>
+		<link rel="stylesheet" type="text/css" href="css/jquery-bubblenews.css" media="all">
+		<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+		<script type="text/javascript" src="js/jquery-p.bn.beta.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#newsCannon').bubbleNews({
+					url:"http://feeds.feedburner.com/html5rocks"
+				});
+			});
+		</script>
+		<style type="text/css">
+			#demo 
+			{ 
+				background:#ccc;
+			}
+		</style>
+	</head>
+	<body id="demo">
+		<div id="newsCannon"></div>
+	</body>
+</html>
